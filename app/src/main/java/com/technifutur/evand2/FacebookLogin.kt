@@ -34,7 +34,7 @@ class FacebookLogin : AppCompatActivity() {
         alertDialogBuilder.setMessage("$message manquant")
 
         alertDialogBuilder.setPositiveButton("OK") { dialog, which ->
-            
+
         }
         val alertDialog = alertDialogBuilder.create()
         alertDialog.show()
